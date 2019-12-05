@@ -1,0 +1,15 @@
+#nav-logo{
+    height: 7vh;
+}
+
+.dropdown-item:hover{
+    background-color: #292b2c;
+}
+
+#about-us{
+    margin-top: 5vh;
+}
+
+hr{
+    border-top:1px solid white;
+}

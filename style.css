@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
 #nav-logo{
     height: 7vh;
 }
@@ -24,4 +26,41 @@ p{
 
 .gap{
     height: 5vh;
+}
+
+.scorebox{
+    border: 1px solid white;
+    border-radius: 6vh;
+    height: 12vh;
+    width: 12vh;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 30%;
+    background-color: #2196f3;
+}
+
+.score{
+    margin-top: 3vh;
+}
+
+.title-text{
+    color: white !important;
+    font-size: 2em !important;
+}
+
+#title h1{
+    color: white;
+    font-size: 2em;
+    font-family: Asap, sans-serif;
+}
+#title2 h1{
+    color: #2196f3;
+    font-size: 2em;
+    font-family: Asap, sans-serif;
+}
+
+.btn-color{
+    background-color: #2196f3;
+    color: white;
+    font-family: Asap, sans-serif;
 }

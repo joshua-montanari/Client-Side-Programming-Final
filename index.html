@@ -30,10 +30,10 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="bg-dark">
     <div id="header">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="https://www.twitch.tv/joshua_mont"
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="index.html"
           ><img
             class="img img-fluid"
             id="nav-logo"
@@ -84,8 +84,12 @@
                 <a class="dropdown-item text-light" href="cuphead.html"
                   >Cuphead</a
                 >
-                <a class="dropdown-item text-light" href="melee.html">Melee</a>
-                <a class="dropdown-item text-light" href="d2.html">Destiny 2</a>
+                <a class="dropdown-item text-light" href="melee.html"
+                  >Jedi: Fallen Order</a
+                >
+                <a class="dropdown-item text-light" href="d2.html"
+                  >Pokemon Sword</a
+                >
               </div>
             </li>
             <li class="nav-item">
@@ -99,13 +103,16 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn my-2 my-sm-0 bg-light text-dark" type="submit">
+            <button class="btn my-2 my-sm-0 btn-color" type="submit">
               Search
             </button>
           </form>
         </div>
       </nav>
     </div>
+
+    <div class="gap"></div>
+
     <div class="container bg-dark">
       <div class="row" id="carosel">
         <div class="col-md-2"></div>
@@ -191,14 +198,33 @@
         <div class="col-md-2"></div>
       </div>
       <div class="row" id="about-us">
-          <div class="col-md-2"></div>
-          <div class="col-md-8">
-              
-                <h3 class="text-center text-light">About Us</h3>
-              <hr>
-              <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptate pariatur esse eveniet error sit assumenda nisi debitis itaque libero et commodi distinctio temporibus velit inventore doloremque animi, magni vitae.</p>
-          </div>
-          <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1 class="text-center text-light title-text" id="title">About Us</h1>
+          <hr />
+          <p class="text-center text-light">
+            BNW Game Studios is the award-winning development team known around
+            the world for their groundbreaking work on The Melee and Smash.
+            Creators of the 2030 ‘Game of the Year’, The Crush, the 2023 ‘Game
+            of the Year’, Crush 3, the 2042 ‘Game of the Year’, The Crush V, and
+            most recently, the 2019 ‘Game of the Year’, the record-breaking
+            Crush 19, the winner of more than 200 'Best Of' awards including the
+            2016 BAFTA and 2016 D.I.C.E. Game of the Year, Crush Shelter, the
+            award-winning mobile game with more than 120 million users, and most
+            recently the highly-anticipated Crush 76 and The Crush: Blades.
+            Bethesda Game Studios has earned its reputation as one of the
+            industry’s most respected and accomplished game development studios.
+          </p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      
+      <div class="gap"></div>
+      
+      <div class="row">
+        <div class="col-md-12 footer text-center text-secondary">
+          <h6>&copy; Bois Night Weekly</h6>
+        </div>
       </div>
     </div>
   </body>

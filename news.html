@@ -1,105 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" href="style.css" />
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-        <script
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-</head>
+  </head>
 
-<body>
+  <body class="bg-dark">
     <div id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="https://www.twitch.tv/joshua_mont"><img class="img img-fluid" id="nav-logo"
-                    src="/images/logo.png" alt="" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="img img-fluid"
+            id="nav-logo"
+            src="/images/logo.png"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="games.html">Today's Games</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="news.html">News</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Reviews
-                        </a>
-                        <div class="dropdown-menu text-light bg-dark" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-light" href="cuphead.html">Cuphead</a>
-                            <a class="dropdown-item text-light" href="melee.html">Melee</a>
-                            <a class="dropdown-item text-light" href="d2.html">Destiny 2</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="login.html">Login</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn my-2 my-sm-0 bg-light text-dark" type="submit">
-                        Search
-                    </button>
-                </form>
-            </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="games.html">Today's Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="news.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Reviews
+              </a>
+              <div
+                class="dropdown-menu text-light bg-dark"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item text-light" href="cuphead.html"
+                  >Cuphead</a
+                >
+                <a class="dropdown-item text-light" href="melee.html"
+                  >Jedi: Fallen Order</a
+                >
+                <a class="dropdown-item text-light" href="d2.html"
+                  >Pokemon Sword</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="login.html">Login</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn my-2 my-sm-0 btn-color" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
     </div>
     <div class="container bg-dark">
-        <div class="row">
-            <div class="col-md-12 text-center text-light">
-                <h1>Todays Articles</h1>
-            </div>
+      <div class="row">
+        <div class="col-md-12 text-center text-light title-text" id="title">
+          <h1>Todays Articles</h1>
         </div>
-            <div class="gap"></div>
+      </div>
+      <div class="gap"></div>
 
-            <div class="row text-center">
-                <div class="col-md-4"><button id="article-1-btn" class="btn text-light">Article 1</button></div>
-                <div class="col-md-4"><button id="article-2-btn" class="btn text-light">Article 2</button></div>
-                <div class="col-md-4"><button id="article-3-btn" class="btn text-light">Article 3</button></div>
-            </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <button id="article-1-btn" class="btn text-light btn-color">Article 1</button>
+        </div>
+        <div class="col-md-4">
+          <button id="article-2-btn" class="btn text-light btn-color">Article 2</button>
+        </div>
+        <div class="col-md-4">
+          <button id="article-3-btn" class="btn text-light btn-color">Article 3</button>
+        </div>
+      </div>
 
-            <div class="gap"></div>
+      <div class="gap"></div>
 
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <p id="article-1-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia neque reiciendis mollitia nihil, facilis ipsam beatae, facere expedita id similique deserunt at obcaecati reprehenderit eaque quas inventore hic cum animi?</p>
-                    <p id="article-2-text" style="display: none;"></p>
-                    <p id="article-3-text" style="display: none;"></p>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-        
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1 class="text-center text-light article-1-text">
+            Video Games are Good for the Brain
+          </h1>
+          <p class="text-light text-center article-1-text">
+            Whether playing video games has negative effects is something that
+            has been debated for 30 years, in much the same way that rock and
+            roll, television, and even the novel faced similar criticisms in
+            their time. Purported negative effects such as addiction, increased
+            aggression, and various health consequences such as obesity and
+            repetitive strain injuries tend to get far more media coverage than
+            the positives. I know from my own research examining both sides that
+            my papers on video game addiction receive far more publicity than my
+            research into the social benefits of, for example, playing online
+            role-playing games. However there is now a wealth of research which
+            shows that video games can be put to educational and therapeutic
+            uses, as well as many studies which reveal how playing video games
+            can improve reaction times and hand-eye co-ordination. For example,
+            research has shown that spatial visualization ability, such as
+            mentally rotating and manipulating two- and three-dimensional
+            objects, improves with video game playing. To add to this long line
+            of studies demonstrating the more positive effects of video games is
+            a study in the Proceedings of the National Academy of Sciences by
+            Vikranth Bejjanki and colleagues. Their newly published paper
+            demonstrates that the playing of action video games – the sort of
+            fast-paced, 3D shoot-em-up beloved of doomsayers in the media –
+            confirms what other studies have revealed, that players show
+            improved performance in perception, attention, and cognition. In a
+            series of experiments on small numbers of gamers (10 to 14 people in
+            each study), the researchers reported that gamers with previous
+            experience of playing such action video games were better at
+            perceptual tasks such as pattern discrimination than gamers with
+            less experience. In another experiment, they trained gamers who had
+            little previous experience of playing action games, giving them 50
+            hours practice. It was shown that these gamers performed much better
+            on perceptual tasks than they had prior to their training. The paper
+            concludes:
+          </p>
+          <h1 style="display: none;" class="text-center text-light article-2-text">
+            What Video Games Can Teach US
+          </h1>
+          <p style="display: none;" class="text-light text-center article-2-text">
+            Here's some news for you to share with your parents and teachers:
+            Video games might actually be good for you. Whenever a wave of
+            teenage violence strikes, movies, TV, or video games often take the
+            heat. Some adults assume that movies, TV, and video games are a bad
+            influence on kids, and they blame these media for causing various
+            problems. A variety of studies appear to support the link between
+            media violence and bad behavior among kids But media don't
+            necessarily cause violence, says James Gee. Gee is an education
+            professor at the University of Wisconsin, Madison. "You get a group
+            of teenage boys who shoot up a school—of course they've played video
+            games," Gee says. "Everyone does. It's like blaming food because we
+            have obese people." Video games are innocent of most of the charges
+            against them, Gee says. The games might actually do a lot of good.
+            Gee has written a book titled What Video Games Have to Teach Us
+            About Learning and Literacy. A growing number of researchers agree
+            with Gee. If used in the right way, video and computer games have
+            the potential to inspire learning. And they can help players improve
+            coordination and visual skills. A good video game is challenging,
+            entertaining, and complicated, Gee says. It usually takes 50 to 60
+            hours of intense concentration to finish one. Even kids who can't
+            sit still in school can spend hours trying to solve a video or
+            computer game. "Kids diagnosed with ADHD because they can't pay
+            attention will play games for 9 straight hours on the computer," Gee
+            says. "The game focuses attention in a way that school doesn't." The
+            captivating power of video games might lie in their interactive
+            nature. Players don't just sit and watch. They get to participate in
+            the action and solve problems. Some games even allow players to make
+            changes in the game, allowing new possibilities. And kids who play
+            computer games often end up knowing more about computers than their
+            parents do. "Kids today are natives in a culture in which their
+            parents are immigrants," Gee says. In his 2 to 3 years of studying
+            the social influences of video games, Gee has seen a number of young
+            gamers become computer science majors in college. One kid even ended
+            up as a teaching assistant during his freshman year because the
+            school's computer courses were too easy for him.
+          </p>
+
+          <h1 style="display: none;" class="text-center text-light article-3-text">
+            Intel 10th Gen Processors
+          </h1>
+          <p style="display: none;" class="text-light text-center article-3-text">
+            Intel’s all-new processors are finally here - paving the way for
+            even more efficient laptops and 2-in-1s. As before, these will be
+            known as Core i3, i5, i7 and i9. There are 11 new mobile parts that
+            you can expect to start appearing inside devices soon. The new
+            product line comes after numerous false starts and rumours that
+            Intel had trashed its work on the redesigned processors altogether,
+            The microarchitecture the new Core chips are based on is codenamed
+            Ice Lake. It promises around an 18 percent increase in performance
+            alongside Wi-Fi 6 support and Thunderbolt 3 for fast data transfer.
+            Indeed, Ice Lake will be the first processors to natively integrate
+            Thunderbolt. Coincidentally, Thunderbolt 3 will also be part of the
+            new USB 4.0 standard. Intel is introducing a new processor number
+            naming structure with these chips. The Core i5 1030 G7, for example,
+            is - left to right - a Core i5 from the 10th generation. The 30
+            refers to the processor model and the G7 to the level of graphics.
+            However, Intel likes to be confusing and the new names don't include
+            a reference to whether the chip is from the U or Y series - U are
+            the low power parts, while Y series chips are even lower-power chips
+            for very slim and light devices. The aforementioned Core i5 1030 G7
+            (Y-Series) chip is probably the sweet spot in terms of the highest
+            U-Series performance without opting for the expensive Core i7. It
+            also features the top-level G7 graphics. There is also on-board
+            Intel Iris Plus graphics based on Intel's brand new Gen11 graphics
+            platform (more on that shortly). This offers a doubling in encoding
+            speed and faster gaming using on-board graphics. Intel says you'll
+            get a doubling in frame rate at 1080p over a system using an 8th
+            generation Core chip from last year. Intel adds that the new chips
+            have vastly improved performance for artificial intelligence
+            applications of around 2.5 times. That's the speed at which the chip
+            can process things such as images for facial recognition.
+          </p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
     </div>
+    
+    <div class="gap"></div>
+      
+      <div class="row">
+        <div class="col-md-12 footer text-center text-secondary">
+          <h6>&copy; Bois Night Weekly</h6>
+        </div>
+      </div>
+    
     <script src="/js/news.js"></script>
-</body>
-
+  </body>
 </html>

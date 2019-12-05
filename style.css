@@ -13,3 +13,15 @@
 hr{
     border-top:1px solid white;
 }
+
+#content{
+    margin-top: 5vh;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+.gap{
+    height: 5vh;
+}
